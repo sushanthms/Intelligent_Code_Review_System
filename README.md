@@ -18,26 +18,34 @@ This system helps developers get instant feedback on their code and understand h
 ## 🏗️ Project Structure
 intelligent-code-review-system/
 │
-├── backend/ # FastAPI backend
-│ ├── app/
-│ │ ├── main.py # FastAPI routes (API endpoints)
-│ │ ├── analyzer.py # Python analysis logic (AST + runtime checks)
-│ │ ├── schemas.py # Pydantic models for request/response
-│ │ └── templates/ # JSON templates for explanations
-│ ├── requirements.txt
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py                 # FastAPI entry point
+│   │   ├── analyze_python.py       # Code analysis logic (AST, runtime, scoring)
+│   │   ├── templates/
+│   │   │   └── explanation_templates.json
+│   │   └── __pycache__/
+│   │
+│   ├── requirements.txt            # Python dependencies
+│ 
 │
-├── frontend/ # React frontend
-│ ├── src/
-│ │ ├── App.jsx # Main app layout
-│ │ ├── main.jsx # Entry point
-│ │ ├── components/
-│ │ │ ├── Editor.jsx # Code input area
-│ │ │ └── Results.jsx # Analysis result display
-│ ├── package.json
-│ └── vite.config.js
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx                 # Main app layout
+│   │   ├── main.jsx                # React root file
+│   │   ├── components/
+│   │   │   ├── Editor.jsx          # Code input editor
+│   │   │   └── Results.jsx         # Displays analysis results
+│   │   └── assets/                 # Optional icons/images
+│   │
+│   ├── package.json                # Frontend dependencies
+│   ├── vite.config.js              # Vite config
+│   ├── index.html                  # App HTML template
+│   
 │
-└── README.md
-
+├── README.md                       # Main project README
+└── .gitignore                      # Ignore node_modules, venv, etc.
 
 ---
 
