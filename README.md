@@ -50,7 +50,8 @@ intelligent-code-review-system/
 ```
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Backend (FastAPI)
+## How to Run
+1️⃣ Backend (FastAPI)
 Open a terminal in the **`backend`** folder:
 ```bash
 cd backend
