@@ -16,6 +16,7 @@ This system helps developers get instant feedback on their code and understand h
 📊 **Visual Results** — Displays issues, metrics, and improvement suggestions clearly  
 
 ## 🏗️ Project Structure
+```
 intelligent-code-review-system/
 │
 ├── backend/
@@ -46,7 +47,7 @@ intelligent-code-review-system/
 │
 ├── README.md                       # Main project README
 └── .gitignore                      # Ignore node_modules, venv, etc.
-
+```
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Backend (FastAPI)
