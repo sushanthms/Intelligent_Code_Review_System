@@ -19,34 +19,33 @@ This system helps developers get instant feedback on their code and understand h
 intelligent-code-review-system/
 │
 ├── backend/
-│ ├── app/
-│ │ ├── init.py
-│ │ ├── main.py
-│ │ ├── analyzer.py
-│ │ ├── templates/
-│ │ │ └── explanation_templates.json
-│ │ └── pycache/
-│ │
-│ ├── requirements.txt
-│ └── README.md
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py                 # FastAPI entry point
+│   │   ├── analyze_python.py       # Code analysis logic (AST, runtime, scoring)
+│   │   ├── templates/
+│   │   │   └── explanation_templates.json
+│   │   └── __pycache__/
+│   │
+│   ├── requirements.txt            # Python dependencies
+│   
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── main.jsx
-│ │ ├── components/
-│ │ │ ├── Editor.jsx
-│ │ │ └── Results.jsx
-│ │ └── assets/
-│ │
-│ ├── package.json
-│ ├── vite.config.js
-│ ├── index.html
-│ └── README.md
+│   ├── src/
+│   │   ├── App.jsx                 # Main app layout
+│   │   ├── main.jsx                # React root file
+│   │   ├── components/
+│   │   │   ├── Editor.jsx          # Code input editor
+│   │   │   └── Results.jsx         # Displays analysis results
+│   │   └── assets/                 # Optional icons/images
+│   │
+│   ├── package.json                # Frontend dependencies
+│   ├── vite.config.js              # Vite config
+│   ├── index.html                  # App HTML template
+│   
 │
-├── README.md
-└── .gitignore
----
+├── README.md                       # Main project README
+└── .gitignore                      # Ignore node_modules, venv, etc.
 
 ## ⚙️ Setup Instructions
 
