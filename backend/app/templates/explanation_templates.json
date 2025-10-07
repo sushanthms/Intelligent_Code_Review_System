@@ -1,0 +1,18 @@
+{
+"open_without_with": {
+"title": "open() used without a context manager",
+"category": "Resource",
+"severity": "Medium",
+"why": "Opening files without a context manager can lead to resource leaks if exceptions occur before the file is closed.",
+"fix": "Use a `with open(...) as f:` context manager so the file is automatically closed.",
+"principle": "Context managers ensure deterministic resource cleanup."
+},
+"eval_usage": {
+"title": "Use of eval()",
+"category": "Security",
+"severity": "Critical",
+"why": "eval() executes arbitrary Python code, which can be dangerous if it processes untrusted input.",
+"fix": "Avoid eval(); use ast.literal_eval or other safe parsing if you need to parse literals, or design a proper parser/validator.",
+"principle": "Never execute untrusted code; prefer safe parsers and explicit logic."
+}
+}
