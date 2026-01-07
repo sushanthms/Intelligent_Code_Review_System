@@ -94,12 +94,14 @@ python -m uvicorn app.main:app --reload --port 8000
 ```
 ### 2️⃣ Frontend (React + Vite)
 Open a new terminal in the frontend folder:
-
+```bash
 cd frontend
 npm install
 npm run dev
-
-The frontend will start at:
+```bash
+```
+## The frontend will start at:
+```
 👉 http://localhost:5173
 
 | Layer               | Technology                       | Purpose                            |
