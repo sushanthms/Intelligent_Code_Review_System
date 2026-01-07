@@ -91,6 +91,7 @@ Alternative command (recommended on Windows):
 ```bash
 python -m uvicorn app.main:app --reload --port 8000
 
+```
 ### 2️⃣ Frontend (React + Vite)
 Open a new terminal in the frontend folder:
 
