@@ -60,8 +60,6 @@ Open a terminal in the **backend** folder:
 cd backend
 python -m venv venv
 venv\Scripts\activate
-
-
 pip install -r requirements.txt
 ```
 ## To run the backend:
@@ -85,12 +83,13 @@ Error message: ModuleNotFoundError: No module named 'fastapi'
 ```
 **Solution:**
 ```
-```bash
+```
 pip install fastapi
 Running the Backend Server
 ```
+```
 ## After installing all required dependencies, start the backend server using:
-```bash
+```
 uvicorn app.main:app --reload --port 8000
 Alternative command (recommended on Windows):
 ```bash
