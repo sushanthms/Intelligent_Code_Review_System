@@ -85,9 +85,6 @@ Error message: ModuleNotFoundError: No module named 'fastapi'
 ```
 pip install fastapi
 ```
-
-```
-```
 ## After installing all required dependencies, start the backend server using:
 ```
 uvicorn app.main:app --reload --port 8000
