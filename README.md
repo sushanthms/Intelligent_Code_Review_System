@@ -63,7 +63,9 @@ venv\Scripts\activate
 
 
 pip install -r requirements.txt
-To run the backend:
+```
+## To run the backend:
+```
 uvicorn app.main:app --reload --port 8000
 ```
 ## Common Errors & Fixes
@@ -76,15 +78,18 @@ Error message: uvicorn : The term 'uvicorn' is not recognized
 **Solution:**
 ```bash
 pip install uvicorn
-
-fastapi not found
-
+```
+### fastapi not found
+```
 Error message: ModuleNotFoundError: No module named 'fastapi'
+```
+**Solution:**
+```
 ```bash
 pip install fastapi
 Running the Backend Server
-
-After installing all required dependencies, start the backend server using:
+```
+## After installing all required dependencies, start the backend server using:
 ```bash
 uvicorn app.main:app --reload --port 8000
 Alternative command (recommended on Windows):
@@ -98,12 +103,13 @@ Open a new terminal in the frontend folder:
 cd frontend
 npm install
 npm run dev
-```bash
+```
+```
 ```
 ## The frontend will start at:
 ```
-👉 http://localhost:5173
-
+http://localhost:5173
+```
 | Layer               | Technology                       | Purpose                            |
 | ------------------- | -------------------------------- | ---------------------------------- |
 | **Frontend**        | React.js + Tailwind CSS          | UI and user interactions           |
