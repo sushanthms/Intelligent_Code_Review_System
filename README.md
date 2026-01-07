@@ -50,14 +50,17 @@ intelligent-code-review-system/
 ```
 ## ⚙️ Setup Instructions
 
-## How to Run
-1️⃣ Backend (FastAPI)
-Open a terminal in the **`backend`** folder:
+## ▶️ How to Run
+
+### 1️⃣ Backend (FastAPI)
+
+Open a terminal in the **backend** folder:
+
 ```bash
 cd backend
 python -m venv venv
-venv\Scripts\activate   # On Windows
-# or source venv/bin/activate  (Mac/Linux)
+venv\Scripts\activate
+
 
 pip install -r requirements.txt
 To run the backend:
