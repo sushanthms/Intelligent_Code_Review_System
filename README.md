@@ -63,15 +63,30 @@ pip install -r requirements.txt
 To run the backend:
 uvicorn app.main:app --reload --port 8000
 
-# Errors encountered
-## uvicorn not found:
-Use the command
+## Common Errors & Fixes
+
+During backend setup, the following issues may occur.
+
+### uvicorn not found
+Error message: uvicorn : The term 'uvicorn' is not recognized
+
+**Solution:**
+```bash
 pip install uvicorn
-## fastapi not found:
-Use the command
+
+fastapi not found
+
+Error message: ModuleNotFoundError: No module named 'fastapi'
+```bash
 pip install fastapi
-The backend will start at:
-👉 http://127.0.0.1:8000
+Running the Backend Server
+
+After installing all required dependencies, start the backend server using:
+```bash
+uvicorn app.main:app --reload --port 8000
+Alternative command (recommended on Windows):
+```bash
+python -m uvicorn app.main:app --reload --port 8000
 
 2️⃣ **Frontend (React + Vite)**
 
