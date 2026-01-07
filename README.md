@@ -63,11 +63,11 @@ pip install -r requirements.txt
 To run the backend:
 uvicorn app.main:app --reload --port 8000
 
-#Errors encountered
-uvicorn not found:
+# Errors encountered
+## uvicorn not found:
 Use the command
 pip install uvicorn
-fastapi not found:
+## fastapi not found:
 Use the command
 pip install fastapi
 The backend will start at:
