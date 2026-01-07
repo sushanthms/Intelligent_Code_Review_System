@@ -65,7 +65,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 To run the backend:
 uvicorn app.main:app --reload --port 8000
-
+```
 ## Common Errors & Fixes
 
 During backend setup, the following issues may occur.
