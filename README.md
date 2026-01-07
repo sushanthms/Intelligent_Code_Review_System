@@ -60,8 +60,16 @@ venv\Scripts\activate   # On Windows
 # or source venv/bin/activate  (Mac/Linux)
 
 pip install -r requirements.txt
+To run the backend:
 uvicorn app.main:app --reload --port 8000
 
+#Errors encountered
+uvicorn not found:
+Use the command
+pip install uvicorn
+fastapi not found:
+Use the command
+pip install fastapi
 The backend will start at:
 👉 http://127.0.0.1:8000
 
