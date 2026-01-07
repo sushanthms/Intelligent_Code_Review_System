@@ -83,9 +83,9 @@ Error message: ModuleNotFoundError: No module named 'fastapi'
 ```
 **Solution:**
 ```
-```
 pip install fastapi
-Running the Backend Server
+```
+
 ```
 ```
 ## After installing all required dependencies, start the backend server using:
